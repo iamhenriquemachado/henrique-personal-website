@@ -13,7 +13,7 @@ import { CommandMenuTrigger } from "@/components/command-menu-trigger"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Personal Website",
+  title: "Henrique",
   description: "Software engineer, systems scaling expert, and open-source contributor",
     generator: 'v0.dev'
 }

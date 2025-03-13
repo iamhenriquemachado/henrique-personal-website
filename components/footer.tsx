@@ -22,7 +22,7 @@ export function Footer() {
           </Link>
         </nav>
         <div className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} © Henrique. All rights reserved.
         </div>
       </div>
     </footer>

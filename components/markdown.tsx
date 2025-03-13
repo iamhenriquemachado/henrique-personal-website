@@ -12,11 +12,10 @@ export function Markdown({ content }: MarkdownProps) {
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
-      className="prose dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-lg"
       components={{
-        code({ node, inline, className, children, ...props }) {
+        code({ node, className, children, ...props }: any) {  // `inline` removed and typed `props` as `any`
           const match = /language-(\w+)/.exec(className || "")
-          return !inline && match ? (
+          return match ? (
             <SyntaxHighlighter style={atomDark} language={match[1]} PreTag="div" className="rounded-md" {...props}>
               {String(children).replace(/\n$/, "")}
             </SyntaxHighlighter>
@@ -32,4 +31,3 @@ export function Markdown({ content }: MarkdownProps) {
     </ReactMarkdown>
   )
 }
-
