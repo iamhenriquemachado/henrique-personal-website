@@ -8,7 +8,7 @@ export default function HireMePage() {
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Hire me.</h1>
 
         <p className="text-muted-foreground mb-12">
-          Pick my brain on anything you'd like. Need a new website? Or just need consulting for your project?
+          Pick my brain for your next project. 
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -19,7 +19,7 @@ export default function HireMePage() {
               development, system architecture, or performance optimization, I'd love to hear from you.
             </p>
             <Link
-              href="mailto:email@example.com"
+              href="mailto:heyhenriquecastro@gmail.com"
               className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
             >
               Contact me
@@ -33,7 +33,7 @@ export default function HireMePage() {
               Schedule a conversation with me to get to know each other better, so I can tell you my story, and
               eventually we can work together.
             </p>
-            <Link href="#" className="inline-flex items-center text-primary hover:text-primary/80 transition-colors">
+            <Link href="https://calendly.com/heyhenriquecastro/30min" className="inline-flex items-center text-primary hover:text-primary/80 transition-colors" target="_blank">
               Schedule now
               <ArrowRight className="ml-1 h-4 w-4" />
             </Link>

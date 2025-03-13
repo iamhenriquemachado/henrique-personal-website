@@ -11,24 +11,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    icon: "V",
-    name: "Vain",
-    description: "Simplifying the way to provide and use aesthetic services in Brazil.",
-    url: "https://vainapp.com.br",
-  },
-  {
-    icon: "SN",
-    name: "SnipShare",
-    description: "The all-in-one platform for creating, executing, and sharing Node.js code snippets.",
-    url: "https://github.com/username/snipshare",
-    githubUrl: "https://github.com/username/snipshare",
-  },
-  {
-    icon: "GC",
-    name: "GitGlean",
-    description: "Effortlessly navigate large GitHub repositories with a fast, intuitive semantic search.",
-    url: "https://github.com/username/git-glean",
-    githubUrl: "https://github.com/username/git-glean",
+    icon: "D",
+    name: "DevUtilities",
+    description: "A collection of essential tools to streamline your development workflow.",
+    url: "https://github.com/iamhenriquemachado/devutilities",
   },
 ]
 
@@ -41,9 +27,7 @@ export default function ProjectsPage() {
         </h1>
 
         <p className="text-muted-foreground mb-12 text-lg">
-          I've worked on tons of little projects over the years but these are the ones that I'm most proud of. Some of
-          them are open-source, so if you see something that piques your interest, check out the code and contribute if
-          you have ideas for how it can be improved.
+        I'm a new developer working on building projects. Over the months, I've created some smaller projects, and I'm especially proud of a few of them. Some of them are open-source, so if something catches your eye, feel free to check out the code and contribute if you have any suggestions for improvements
         </p>
 
         <div className="grid gap-6">

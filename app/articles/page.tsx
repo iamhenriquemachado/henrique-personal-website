@@ -10,7 +10,7 @@ export default function ArticlesPage() {
     <div className="container mx-auto px-4 py-12 md:py-24">
       <section className="max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 purple-glow">
-          Writing on software engineering, company building, and scaling applications.
+        Thoughts on software engineering, startups, and building scalable systems.
         </h1>
 
         <p className="text-muted-foreground mb-12">
