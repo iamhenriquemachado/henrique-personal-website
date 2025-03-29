@@ -260,21 +260,11 @@ export function CommandMenu({ ...props }: CommandMenuProps) {
 
             <CommandGroup heading="Social">
               <CommandItem
-                onSelect={() => runCommand(() => window.open("https://github.com/yourusername", "_blank"))}
+                onSelect={() => runCommand(() => window.open("https://github.com/iamhenriquemachado", "_blank"))}
                 className="flex items-center gap-2"
               >
                 <Github className="h-4 w-4" />
                 <span>GitHub</span>
-                <CommandShortcut>
-                  <ExternalLink className="h-3 w-3" />
-                </CommandShortcut>
-              </CommandItem>
-              <CommandItem
-                onSelect={() => runCommand(() => window.open("https://twitter.com/yourusername", "_blank"))}
-                className="flex items-center gap-2"
-              >
-                <Twitter className="h-4 w-4" />
-                <span>Twitter</span>
                 <CommandShortcut>
                   <ExternalLink className="h-3 w-3" />
                 </CommandShortcut>

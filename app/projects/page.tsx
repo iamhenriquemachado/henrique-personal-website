@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, ExternalLink } from "lucide-react"
+import { Github, ExternalLink, Braces } from "lucide-react"
 
 interface Project {
   icon: string
@@ -14,8 +14,22 @@ const projects: Project[] = [
     icon: "D",
     name: "DevUtilities",
     description: "A collection of essential tools to streamline your development workflow.",
-    url: "https://github.com/iamhenriquemachado/devutilities",
+    url: "https://devutilities.vercel.app/",
   },
+
+  {
+    icon: "B",
+    name: "BiteCast AI",
+    description: "AI powered web application to summarize short and long YouTube videos",
+    url: "https://aibitecast-summarizer.vercel.app/",
+  },
+
+  {
+    icon: "CS",
+    name: "Computer Science FlashCards",
+    description: "Studying and learning through spaced repetition and active recall, focusing on general knowledge and computer science.",
+    url: "",
+  }
 ]
 
 export default function ProjectsPage() {
