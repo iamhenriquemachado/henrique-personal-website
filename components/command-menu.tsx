@@ -270,7 +270,7 @@ export function CommandMenu({ ...props }: CommandMenuProps) {
                 </CommandShortcut>
               </CommandItem>
               <CommandItem
-                onSelect={() => runCommand(() => window.open("https://linkedin.com/in/yourusername", "_blank"))}
+                onSelect={() => runCommand(() => window.open("https://www.linkedin.com/in/henriquecmachado/", "_blank"))}
                 className="flex items-center gap-2"
               >
                 <Linkedin className="h-4 w-4" />
